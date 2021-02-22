@@ -1,3 +1,4 @@
+
 /* Things to add:
 Day of Week - day
 Coffee Name - name
@@ -146,5 +147,6 @@ switch(myDay){
 document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
 document.getElementsByTagName("HTML")[0].style.backgroundColor = coffee.color;
 document.getElementById("coffee-highlight").style.color = coffee.color;
+
 
 
