@@ -1,15 +1,11 @@
-// -Day of week
-// -Coffee name
-// -Coffee pic
-// -Alt tag
-// -Coffee Description
-// -Color for coffee
-let myDate = new Date();
-let myDay = "";
-let today = "";
-let coffee = "";
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
+/* Things to add:
+Day of Week - day
+Coffee Name - name
+Coffee Pic - pic
+Alt tag - alt
+Coffee Description - desc
+Color for coffee - color
+*/
 
 
 let myDate = new Date();
@@ -150,3 +146,5 @@ switch(myDay){
 document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
 document.getElementsByTagName("HTML")[0].style.backgroundColor = coffee.color;
 document.getElementById("coffee-highlight").style.color = coffee.color;
+
+
